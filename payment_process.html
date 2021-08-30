@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> background-color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<form action="">
+    <h1 class="main_heading"> payment form </h1>
+    <p> required fields are followed by *</p>
+    <h2> contact information </h2>
+    <p> Name:  * <input type="text" name="Name" placeholder="nisha kumari" required> </p>
+    <p>
+        <fieldset>
+        <legend>Gender</legend>
+        <p>
+        Male <input type="radio" name="Gender" id="Male"> Female <input type="radio" name="Gender" id="Female">
+    </p>
+    </fieldset>
+<p> address: <textarea name="address" id="" cols="30" rows="10"></textarea></p>
+<p> Email: * <input type="Email" name="email" id="Email"required></p>
+<p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+<h2>Payment information</h2>
+<p> card type:
+    <select name="card type" id="card type">
+        <option value="">--select a card type--</option>
+        <option value= "Rupay"> </option>
+        <option value= "master card"> </option>
+        <option value= "visa"> </option>
+    </select>
+</p>
+<p>
+    card number: <input type="number" name="card number" id="card number"> 
+    Expiration date: <input type="date" name="exp date" id="exp date">
+
+</p>
+   <p>CVV: <input type="password" name="CVV" id="CVV"></p>
+  <input type="submit" value="Pay now">
+    </div>
+    </form>
+    </body>
+    </html>
